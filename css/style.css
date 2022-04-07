@@ -1272,6 +1272,10 @@ span.typed {
 	}
 }
 
+.skills-block {
+	font-size: 5rem;
+}
+
 /*8.3 Video Intro*/
 .video-section {
 	background-image: url('../images/city.jpeg');
@@ -2981,6 +2985,10 @@ blockquote {
 	padding: 30px 35px;
 	background: #f7f9fc;
 	border-radius: 4px;
+}
+
+.profile-img {
+	width: 50%;
 }
 
 .about-author p {
