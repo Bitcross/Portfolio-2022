@@ -1272,6 +1272,10 @@ span.typed {
 	}
 }
 
+.skills-block {
+	font-size: 5rem;
+}
+
 /*8.3 Video Intro*/
 .video-section {
 	background-image: url('../images/city.jpeg');
