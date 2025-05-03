@@ -1755,27 +1755,37 @@ button.owl-dot:focus {
 ============================================================================= */
 
 /* 9.0 Resume */
+.pdf-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* ensures the image and button stack if needed */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
 .resume-img{
 	width: 100%;
-	max-width: 900px;
-	display: block;
-	margin: auto;
-	border-radius: 8px;
+  max-width: 900px;
+  display: block;
+  border-radius: 8px;
 }
 
 .download-btn{
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	background-color: #11d6f0;
-	color: #fff;
-	padding: 10px 16px;
-	border: none;
-	border-radius: 6px;
-	text-decoration: none;
-	font-weight: bold;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-	transition: background-color 0.2s ease-in-out;
+	pmargin-top: 16px;
+  background-color: #11d6f0;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease-in-out;
+  position: static; /* REMOVE absolute positioning */
 }
 .download-btn:hover{
 	background-color: #0fa3d1;
